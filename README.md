@@ -108,6 +108,9 @@ plt.show()
 - **Attribution Marketing Multi-Touch** : Modélisation des canaux marketing pour optimiser le budget des campagnes.
 - **Optimisation de la Durabilité** : Analyse des données d’émissions de CO2 pour aider les entreprises à réduire leur empreinte carbone.
 - **Prédiction du Churn** : Modèle de machine learning pour prédire l’attrition client avec visualisation interactive sous Power BI.
+- **Projet d'analyse du Tour de France basé sur des techniques d'apprentissage automatique**
+
+![tdf_image](https://github.com/AdrixnIPP/TourDeFrance/assets/121221811/656fcaeb-a31f-4d52-8ff5-4ccaddd308d2)
 
 [Voir le code sur GitHub](https://github.com/adrienlambert)
 ```
