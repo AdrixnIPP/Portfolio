@@ -1,8 +1,6 @@
-# Adrien LAMBERT
+# Adrien LAMBERT - Data Analyst & Consultant en Data Science
 👋 Hi! I'm a Data Analyst skilled in Python, R, SQL and Power BI. My goal is to use Data Analytics and AI techniques to generate value from data.
-
-# Adrien Lambert - Data Analyst & Consultant en Data Science
-[LinkedIn](https://www.linkedin.com/in/adrienlambert1) | adrien.lmbrt.1999@gmail.com | +33 6 65 44 28 70 | Permis B
+              [LinkedIn](https://www.linkedin.com/in/adrienlambert1) | adrien.lmbrt.1999@gmail.com | +33 6 65 44 28 70 | Permis B
 
 ## 🎓 Formation
 - **2019-2022** : ENSTA Paris, Membre de l’Institut Polytechnique de Paris
