@@ -1,5 +1,5 @@
-# Portfolio
-Portfolio of my projects
+# Adrien LAMBERT
+👋 Hi! I'm a Data Analyst skilled in Python, R, SQL and Power BI. My goal is to use Data Analytics and AI techniques to generate value from data.
 
 # [Projet 1 : Algorithme de Matching des Données Clients (Salesforce)](https://adrixnipp.github.io/Portfolio/)
 
