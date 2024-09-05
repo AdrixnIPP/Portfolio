@@ -1,86 +1,15 @@
 # Adrien LAMBERT - Data Analyst & Consultant en Data Science
-👋 Hi! I'm a Data Analyst skilled in Python, R, SQL and Power BI. My goal is to use Data Analytics and AI techniques to generate value from data.
-              [LinkedIn](https://www.linkedin.com/in/adrienlambert1) | adrien.lmbrt.1999@gmail.com | +33 6 65 44 28 70 | Permis B
+👋 Hi! I'm a Data Analyst skilled in Python, R, SQL and Power BI. 
+My goal is to use Data Analytics and AI techniques to generate value from data.
+[LinkedIn](https://www.linkedin.com/in/adrienlambert1) | adrien.lmbrt.1999@gmail.com | +33 6 65 44 28 70 | Permis B
 
 ## 🎓 Formation
-- **2019-2022** : ENSTA Paris, Membre de l’Institut Polytechnique de Paris
-  - Diplôme d’ingénieur en systèmes complexes (GPA: 3.5)
+- **2019-2022** : [ENSTA Paris](https://www.ensta-paris.fr/), Membre de l’Institut Polytechnique de Paris
+  - Diplôme d’ingénieur de l'ENSTA Paris (GPA: 3.5)
   - Cours principaux : Mathématiques Appliquées, Statistiques, Deep Learning, Management de l’Innovation.
  
 - **2017-2019** : Université Paris-Saclay
   - DUT Mesures Physiques (Mention Très Bien - GPA : 4.0)
-
----
-
-## 💼 Expériences Professionnelles
-
-### Forvis Mazars Group - **Data Analyst Consultant** (Depuis 11/2023)
-- **Contexte** : Réalisation de missions d'audit externe et de contrôle interne dans des secteurs variés (Industrie, Services, Immobilier, Banque, Assurance).
-- **Outils** : Alteryx, QlikSense, Power BI, Python
-- **Missions réalisées** :
-  - Automatisation des processus d’analyse de données avec Python et Power BI.
-  - Développement d’un outil de détection de fraude pour les audits internes.
-  - Enseignement de cours de Data Analytics à l'Université Paris-Dauphine.
-
----
-
-### Unilever Group - **Data Specialist** (01/2023 - 11/2023)
-
-#### **Projet 1 : Algorithme de Matching des Données Clients**
-- **Contexte** : Unification des données clients provenant de diverses sources (Salesforce, Marketo, Webshop) pour optimiser le ciblage marketing.
-- **Approche technique** :
-  - Utilisation des bibliothèques Python : `FuzzyWuzzy` et `RecordLinkage` pour le matching de données.
-  - Implémentation dans un environnement **Jupyter Notebook**.
-  - Algorithme basé sur la correspondance floue des noms, adresses, et emails des clients.
- 
-```python
-from fuzzywuzzy import fuzz
-from recordlinkage import Compare
-
-# Exemple de matching entre deux bases de données clients
-compare = Compare()
-compare.string('name', 'name', method='jarowinkler', threshold=0.85)
-compare.exact('email', 'email')
-features = compare.compute(dfA, dfB)
-
-matches = features[features.sum(axis=1) > 1.5]  # Ajuster le seuil pour optimiser les résultats
-```
-
-- **Résultats** : 903 clients matchés sur 1000 avec un score de précision de 95%.
-
-#### **Projet 2 : Dashboard Power BI - DN Tracker**
-- **Contexte** : Création d’un dashboard pour le suivi quotidien de la distribution numérique (DN) des produits Unilever.
-- **Technologies utilisées** : Power BI, Power Query, Excel, SAP
-- **Résultats** : Amélioration de la prise de décision stratégique grâce à la visualisation des KPI en temps réel.
-
-![Exemple de dashboard Power BI](path/to/dashboard-image.png)
-
----
-
-### Thales Group - **AI & Data Science Apprentice** (09/2020 - 09/2022)
-
-#### **Projet : Algorithmes d’IA pour la Guerre Électronique**
-- **Contexte** : Application de techniques de clustering et de détection d’anomalies aux signaux radar.
-- **Technologies utilisées** : Python, Scikit-learn, HDBSCAN, GMM
-- **Exemple de code** : Clustering d'impulsions radar avec HDBSCAN.
-
-```python
-from hdbscan import HDBSCAN
-
-# Clustering des données radar
-clusterer = HDBSCAN(min_cluster_size=10)
-cluster_labels = clusterer.fit_predict(radar_data)
-
-# Visualisation des clusters
-import matplotlib.pyplot as plt
-plt.scatter(radar_data[:, 0], radar_data[:, 1], c=cluster_labels)
-plt.title('Clustering d\'impulsions radar')
-plt.show()
-```
-
-- **Résultats** : Amélioration significative de la classification des signaux radar et détection d’anomalies fiables.
-
----
 
 ## 🛠️ Compétences Techniques
 - **Langages** : Python (avancé), SQL (intermédiaire), R (intermédiaire)
@@ -104,7 +33,52 @@ plt.show()
 
 ---
 
-## 📈 Projets Open Source (Ajouté à GitHub)
+## 💼 Expériences Professionnelles
+
+### [Forvis Mazars Group](https://www.forvismazars.com/fr/fr) - **Data Analyst Consultant** (Depuis 11/2023)
+- **Contexte** : Réalisation de missions d'audit externe et de contrôle interne dans des secteurs variés (Industrie, Services, Immobilier, Banque, Assurance).
+
+- **Missions réalisées** :
+  - Automatisation des processus d’analyse de données avec Python et Power BI.
+  - Développement d’un outil de détection de fraude pour les audits internes.
+  - Enseignement de cours de Data Analytics à l'Université Paris-Dauphine.
+ 
+- - **Outils** : Alteryx, QlikSense, Power BI, Python.
+
+---
+### [Unilever Group](https://www.unilever.fr/) - **Data Specialist** (01/2023 - 11/2023)
+
+- **Contexte** : Matching des données clients provenant de diverses sources (Salesforce, Marketo, Webshop) pour optimiser le ciblage marketing.
+
+- **Missions réalisées** :
+  - Mise en place d'un algorithme de matching des données clients (FuzzyWuzzy, RecordLinkage);
+  - Création d’un dashboard via PowerBI dans le but de piloter le suivi quotidien de la distribution numérique (DN) des produits.
+  - Implémentation du code dans un environnement **Jupyter Notebook**;
+  - Algorithme basé sur la correspondance floue des noms, adresses, et emails des clients.
+-  **Outils** : Python, Jupyter, Power BI.
+
+![Exemple de dashboard Power BI](path/to/dashboard-image.png)
+
+---
+
+### [Thales Group](https://www.thalesgroup.com/fr) - **Alternance AI & Data Science Engineer ** (09/2020 - 09/2022)
+
+#### **Projet : Algorithmes d’IA pour la Guerre Électronique**
+- **Contexte** : Application de techniques de clustering et de détection d’anomalies aux signaux radar.
+- **Technologies utilisées** : Python, Scikit-learn, HDBSCAN, GMM
+- **Exemple de code** : Clustering d'impulsions radar avec HDBSCAN.
+---
+
+
+### [University of California - UC Berkeley](https://www.thalesgroup.com/fr) - ** Data Scientist Internship ** (06/2020 - 09/2020)
+
+#### **Projet : Implémentation d'algorithmes de clustering via R dans le but d'étudier la propagation statistiques des feux de forêts en Californie **
+- **Contexte** : Application de techniques de clustering et étude de données géospatiales via QGIS.
+- **Technologies utilisées** : Python, R, QGIS, PPT.
+- **Exemple de code** : Clustering d'impulsions radar avec HDBSCAN.
+---
+
+## 📈 Projets Data (Ajouté à GitHub)
 - **Attribution Marketing Multi-Touch** : Modélisation des canaux marketing pour optimiser le budget des campagnes.
 - **Optimisation de la Durabilité** : Analyse des données d’émissions de CO2 pour aider les entreprises à réduire leur empreinte carbone.
 - **Prédiction du Churn** : Modèle de machine learning pour prédire l’attrition client avec visualisation interactive sous Power BI.
